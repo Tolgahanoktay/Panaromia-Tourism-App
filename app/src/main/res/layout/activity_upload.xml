@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imagePlaces"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/icons8_plus_150px"
+                        android:onClick="selectImage"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/contenID"
+                            android:layout_width="15dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:clickable="false"
+                            android:longClickable="false"
+                            android:visibility="gone"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/contenTitle"
+                            android:layout_width="15dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Başlık,Konum" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/contentExplain"
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="İçerik" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/contentCategory"
+                            android:layout_width="15dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Kategori" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/contentYoutube"
+                            android:layout_width="15dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Youtube Kod"  />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/contentStarRate"
+                            android:layout_width="15dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Puanla" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/contentCoordinate"
+                            android:layout_width="15dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Kooordinat" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/contentClickRate"
+                            android:layout_width="15dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:visibility="gone"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <Button
+                            android:id="@+id/buttonSend"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Yükle"
+                            android:onClick="upload"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/buttonUpdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Guncelle"
+                            android:onClick="update"
+                            android:visibility="gone"
+                            android:layout_marginBottom="20dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/buttonDelete"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:onClick="deleteItem"
+                            android:text="Sil"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

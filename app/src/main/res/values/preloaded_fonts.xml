@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/advent_pro_bold</item>
+        <item>@font/alef_bold</item>
+        <item>@font/alegreya_sc_bold</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/alike</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/amiri_bold</item>
+        <item>@font/andada</item>
+        <item>@font/bowlby_one_sc</item>
+        <item>@font/cardo_bold</item>
+        <item>@font/chango</item>
+        <item>@font/fenix</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/yantramanav_bold</item>
+    </array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2F2F2</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="color1">#FFA500</color>
+    <color name="color2">#800000</color>
+    <color name="color3">#008000</color>
+    <color name="color4">#800080</color>
+
+    <color name="pos1">#7F38EC</color>
+    <color name="pos2">#3BB9FF</color>
+    <color name="pos3">#2B65EC</color>
+    <color name="pos4">#98AFC7</color>
+    <color name="pos5">#437C17</color>
+    <color name="pos">#C85A17</color>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartingPage"
+    android:background="#3BB9FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="-20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/map"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoSizeMaxTextSize="45dp"
+                android:autoSizeMinTextSize="38dp"
+                android:fontFamily="@font/chango"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Panaromia"
+                android:textColor="#fff"
+                android:textSize="45dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/appSlogan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoSizeMaxTextSize="28dp"
+                android:autoSizeMinTextSize="24dp"
+                android:fontFamily="@font/amaranth_bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Let's Discover Together"
+                android:textColor="#fff"
+                android:textSize="28dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

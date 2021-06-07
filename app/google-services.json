@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "647816936453",
+    "firebase_url": "https://panaromia-c5365.firebaseio.com",
+    "project_id": "panaromia-c5365",
+    "storage_bucket": "panaromia-c5365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647816936453:android:43a3af89e1c1139798306c",
+        "android_client_info": {
+          "package_name": "com.tolgahanoktay.panaromia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647816936453-u906oms6ou84sln5a54ph5ut20vg2on9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGXPVC3QeCXRPh8nVjFX4FpBmYwRmT1bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647816936453-u906oms6ou84sln5a54ph5ut20vg2on9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

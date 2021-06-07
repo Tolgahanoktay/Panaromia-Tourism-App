@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linear_routerButton">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerVAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_routerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp">
+
+            <Button
+                android:id="@+id/btn_setData"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textColor="#000"
+                android:text="Veri Girişi"
+                android:background="@drawable/btn_enter_data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp">
+
+            <Button
+                android:id="@+id/btn_goToApp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textColor="#000"
+                android:text="Uygulamaya Git"
+                android:background="@drawable/btn_go_app" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

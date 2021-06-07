@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/choose_categoryText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/adamina"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="25dp"
+        android:autoSizeMinTextSize="18dp"
+        android:text="You haven't selected a category yet!"
+        android:gravity="center_vertical|center_horizontal"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerV_categoryNews"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

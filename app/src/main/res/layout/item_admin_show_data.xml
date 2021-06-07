@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp">
+
+                <ImageView
+                    android:id="@+id/admin_image"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/admin_placesName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="Places "
+                            android:autoSizeTextType="uniform"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeMinTextSize="15dp"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/admin_category"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="Category Name"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeMinTextSize="15dp"
+                            android:textColor="#000"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/admin_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Date"
+                    android:gravity="center_vertical|center"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="14dp"
+                    android:autoSizeMinTextSize="10dp"
+                    android:textColor="#000"
+                    android:layout_marginRight="3dp"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
